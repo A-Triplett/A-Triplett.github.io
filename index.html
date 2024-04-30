@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style type="text/css"> .tab{margin-left: 40px;} </style>
+
+  <!-- UPDATE TITLE : <Your Name's> Portfolio  -->
+  <title> Hasbro Simon Disection</title>
+
+  <!-- ADD LINKS TO YOUR CSS STYLE SHEETS HERE -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+
+</head>
+
+<body>
+  <!-- TODO : FOLLOW THE TUTORIAL AND CREATE YOUR SITE -->
+  <nav id="desktop-nav">
+    <div>
+      <ul class="nav-links">
+        <li><a href="#Introduction">Introduction</a></li>
+        <li><a href="#retail">Retail Information</a></li>
+        <li><a href="#disassembly">Disassembly</a></li>
+        <li><a href="#operation">Operation</a></li>
+        <li><a href="#analysis">Analysis</a></li>
+        <li><a href="#reassembly">Reassembly</a></li>
+        <li><a href="#lessons">Lessons Learned</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav id="hamburger-nav">
+    <div class="logo">Hasbro Gaming Simon Micro Series</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="menu-links">
+        <li><a href="#Introduction" onclick="toggleMenu()">Introduction</a></li>
+        <li><a href="#retail" onclick="toggleMenu()">Retail Information</a></li>
+        <li><a href="#disassembly" onclick="toggleMenu()">Disassembly</a></li>
+        <li><a href="#operation" onclick="toggleMenu()">Operation</a></li>
+        <li><a href="#analysis" onclick="toggleMenu()">Analysis</a></li>
+        <li><a href="#reassembly" onclick="toggleMenu()">Reassembly</a></li>
+        <li><a href="#lessons" onclick="toggleMenu()">Lessons Learned</a></li>
+      </div>
+    </div>
+  </nav>
+
+  <section id="profile">
+    <div class="section_pic-container">
+      <img 
+        src="./assets/profile-pic-2.png"
+        alt="Avery Triplett profile picture"
+        class="about-pic profile-pic"
+      />
+    </div>
+  </section>
+
+  <section id="Introduction">
+    <h1 class="title">Introduction</h1>
+    <div class="section-container">
+      <div class="about-details-container">
+        <div class="text-container">
+          <p>
+            My name is Avery Triplett and I am a senior in electrical engineering 
+            at Mississippi State University. This website contains the details of 
+            my dissection for my Embedded Systems Class. I chose to dissect the 
+            Hasbro Gaming Simon Micro Series. This is a smaller version of the 
+            classic game Simon. I wanted to dissect this product because I liked 
+            memory games as a kid.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="retail">
+    <h1 class="title">Retail Information</h1>
+    <div class="section-container">
+      <div class="about-details-container">
+        <div class="text-container">
+          <p>
+            UPC: 195166187525
+          </p>
+          <p>&nbsp;</p>
+
+          <h2>Product History</h2>
+          <p>From the about section on Hasbro's corporate website:</p>
+          <p class="tab">
+            "Hasbro is a leading toy and game company whose mission is to 
+            entertain and connect generations of fans through the wonder of 
+            storytelling and exhilaration of play. Hasbro delivers engaging brand 
+            experiences for global audiences through toys, consumer products, 
+            gaming and entertainment, with a portfolio of iconic brands including 
+            MAGIC: THE GATHERING, DUNGEONS & DRAGONS, Hasbro Gaming, NERF, 
+            TRANSFORMERS, PLAY-DOH and PEPPA PIG, as well as premier partner brands."
+          </p>
+          <p>&nbsp;</p>
+
+          <p>From Hasbro's product instructions website:</p>
+          <p class="tab">
+            "Go mobile with the Simon Micro Series game! This compact version of 
+            the classic Simon game is just like the game you already know. Watch 
+            the lights and remember how they go so you can repeat every sequence 
+            for the win. Play alone in Solo mode or play with friends in Pass It 
+            mode, but either way the Simon Action with this Micro Series game is 
+            going to be epic! Simon Micro Series game is fast-paced, compact fun. 
+            You get a point for each command you complete. 2 game modes: Solo or 
+            Pass It. Ages 8 and up. For 1 or more players. Requires 2 "AA" 
+            batteries (demo batteries included). © 2014 Hasbro. All Rights 
+            Reserved. Some of our vintage or prior versions of toy and game 
+            instructions may be more difficult to decipher or have less clarity."
+          </p>
+          <p>&nbsp;</p>
+
+          <h2>MSRP and Street Prices</h2>
+          <p><u>MSRP:</u> $12.99</p>
+          <p><u>Street Prices Without Shipping:</u></p>
+          <p>Walmart</p>
+            <p class="tab">On Sale: $9.84</p>
+            <p class="tab">Normally: $18.74</p>
+          <p>Amazon</p>
+            <p class="tab">On Sale: $9.84</p>
+            <p class="tab">Normally: $11.99+</p>
+            <p class="tab">Highest: $26.30</p>
+          <p>EBay</p>
+            <p class="tab">Lowest: $4.79</p>
+            <p class="tab">Highest: $23.22</p>
+          <p>Mercari</p>
+            <p class="tab">Lowest: $5.40</p>
+            <p class="tab">Highest: $24.00</p>
+          <p>Poshmark</p>
+            <p class="tab">Lowest: $6.00</p>
+            <p class="tab">Highest: $35.00</p>
+          <p>Swiftsly</p>
+            <p class="tab">On Sale: $12.95</p>
+            <p class="tab">Normally: $14.90</p>
+
+          <p>&nbsp;</p>
+
+          <h2>MSRP and Street Prices</h2>
+          <p>I was unable to find any rebraned/OEM versions of the Hasbro Gaming 
+            Simon Micro Series Game.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="disassembly">
+    <h1 class="title">Disassembly</h1>
+    <div class="section-container">
+      <div class="about-details-container">
+        <div class="about-containers">
+
+          <div class="section_pic-container">
+            <img
+              src="./assets/D1.jpg"
+              alt="D1"
+              class="about-pic"
+            />
+          </div>
+
+          <div class="section_pic-container">
+            <img
+              src="./assets/D2.jpg"
+              alt="D2"
+              class="about-pic"
+            />
+          </div>
+
+          <div class="section_pic-container">
+            <img
+              src="./assets/D3R8.jpg"
+              alt="D3"
+              class="about-pic"
+            />
+          </div>
+
+          <div class="section_pic-container">
+            <img
+              src="./assets/D4R7.jpg"
+              alt="D4"
+              class="about-pic"
+            />
+          </div>
+
+          <div class="section_pic-container">
+            <img
+              src="./assets/D6R6.jpg"
+              alt="D6"
+              class="about-pic"
+            />
+          </div>
+
+          <div class="section_pic-container">
+            <img
+              src="./assets/D7R4.jpg"
+              alt="D7"
+              class="about-pic"
+            />
+          </div>
+
+          <div class="section_pic-container">
+            <img
+              src="./assets/D8.jpg"
+              alt="D8"
+              class="about-pic"
+            />
+          </div>
+
+          <div class="section_pic-container">
+            <img
+              src="./assets/D9.jpg"
+              alt="D9"
+              class="about-pic"
+            />
+          </div>
+
+          <div class="section_pic-container">
+            <img
+              src="./assets/D10.jpg"
+              alt="D10"
+              class="about-pic"
+            />
+          </div>
+
+          <div class="section_pic-container">
+            <img
+              src="./assets/D11R3.jpg"
+              alt="D11"
+              class="about-pic"
+            />
+          </div>
+
+          <div class="section_pic-container">
+            <img
+              src="./assets/D12R2.jpg"
+              alt="D12"
+              class="about-pic"
+            />
+          </div>
+
+          <div class="section_pic-container">
+            <img
+              src="./assets/D13R1.jpg"
+              alt="D13"
+              class="about-pic"
+            />
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="operation">
+    <h1 class="title">Operation</h1>
+    <div class="section-container">
+      <div class="about-details-container">
+        <div class="text-container">
+          <h2>Human-Machine Interfaces</h2>
+        </div>
+        <div class="about-containers">
+          <div class="flowchart_pic-container">
+            <img
+              src="./assets/Simon-Flowchart.png"
+              alt="Human-Machine Interfaces Flowchart"
+              class="flowchart-pic"
+            />
+          </div>
+        </div>
+
+        <div class="text-container">
+          <h2>Usage Timing Diagrams</h2>
+        </div>
+        <div class="about-containers">
+          <div class="timing_pic-container">
+            <img
+              src="./assets/lcd.png"
+              alt="LCD Output"
+              class="flowchart-pic"
+            />
+          </div>
+        </div>
+        <div class="text-container">
+          <p class="tab">LCD Output</p>
+          <p>&nbsp;</p>
+        </div>
+
+        <div class="about-containers">
+          <div class="timing_pic-container">
+            <img
+              src="./assets/speaker.png"
+              alt="Speaker Output"
+              class="flowchart-pic"
+            />
+          </div>
+        </div>
+        <div class="text-container">
+          <p class="tab">Speaker Output</p>
+          <p>&nbsp;</p>
+        </div>
+
+        <div class="about-containers">
+          <div class="timing_pic-container">
+            <img
+              src="./assets/button.png"
+              alt="Button Output"
+              class="flowchart-pic"
+            />
+          </div>
+        </div>
+        <div class="text-container">
+          <p class="tab">Button Output</p>
+          <p>&nbsp;</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="analysis">
+    <h1 class="title">Analysis</h1>
+    <div class="section-container">
+      <div class="about-details-container">
+
+        <div class="text-container">
+          <h2>High-Level Block Diagram</h2>
+        </div>
+        <div class="about-containers">
+          <div class="high_level_pic-container">
+            <img
+              src="./assets/High-Level-Diagram.png"
+              alt="High-Level Diagram"
+              class="high_level-pic"
+            />
+          </div>
+        </div>
+
+        <div class="text-container">
+          <h2>Circuit Schematic</h2>
+        </div>
+        <div class="about-containers">
+          <div class="high_level_pic-container">
+            <img
+              src="./assets/Circuit-Schematic.png"
+              alt="Circuit Schematic"
+              class="high_level-pic"
+            />
+          </div>
+        </div>
+
+        <div class="text-container">
+          <h2>Electrical Characteristics</h2>
+        </div>
+        <div class="about-containers">
+          <div class="high_level_pic-container">
+            <img
+              src="./assets/electrical-char.png"
+              alt="Electrical Characteristics"
+              class="high_level-pic"
+            />
+          </div>
+        </div>
+
+        <div class="text-container">
+          <h2>Electrical Bill of Materials</h2>
+        </div>
+        <div class="about-containers">
+          <div class="high_level_pic-container">
+            <img
+              src="./assets/BoM-Electrical.png"
+              alt="Electrical Bill of Materials"
+              class="high_level-pic"
+            />
+          </div>
+        </div>
+        
+        <div class="text-container">  
+          <h2>Non-Electrical Bill of Materials</h2>
+        </div>
+        <div class="about-containers">
+          <div class="high_level_pic-container">
+            <img
+              src="./assets/non-elctrical-bom-1kpx.png"
+              alt="Non-Electrical Bill of Materials"
+              class="high_level-pic"
+            />
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="reassembly">
+    <h1 class="title">Reassembly</h1>
+    <div class="section-container">
+      <div class="about-details-container">
+        <div class="about-containers">
+          
+          <div class="section_pic-container">
+            <img
+              src="./assets/D13R1.jpg"
+              alt="R1"
+              class="about-pic"
+            />
+          </div>
+
+          <div class="section_pic-container">
+            <img
+              src="./assets/D12R2.jpg"
+              alt="R2"
+              class="about-pic"
+            />
+          </div>
+
+          <div class="section_pic-container">
+            <img
+              src="./assets/D11R3.jpg"
+              alt="R3"
+              class="about-pic"
+            />
+          </div>
+
+          <div class="section_pic-container">
+            <img
+              src="./assets/D7R4.jpg"
+              alt="R4"
+              class="about-pic"
+            />
+          </div>
+
+          <div class="section_pic-container">
+            <img
+              src="./assets/R5.jpg"
+              alt="R5"
+              class="about-pic"
+            />
+          </div>
+
+          <div class="section_pic-container">
+            <img
+              src="./assets/D6R6.jpg"
+              alt="R6"
+              class="about-pic"
+            />
+          </div>
+
+          <div class="section_pic-container">
+            <img
+              src="./assets/D4R7.jpg"
+              alt="R7"
+              class="about-pic"
+            />
+          </div>
+
+          <div class="section_pic-container">
+            <img
+              src="./assets/D3R8.jpg"
+              alt="R8"
+              class="about-pic"
+            />
+          </div>
+
+          <div class="section_pic-container">
+            <img
+              src="./assets/R9.jpg"
+              alt="R9"
+              class="about-pic"
+            />
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="lessons">
+    <h1 class="title">Lessons Learned</h1>
+    <div class="section-container">
+      <div class="about-details-container">
+        <div class="text-container">
+          <p>
+            I gained a deeper understanding of how elctronic componenets interact
+            within a circuit. This hands-on experience helped solidify the 
+            theoretical knowledge I'v learned in class and provided insights into 
+            real-world applications.
+          </p>
+          <p>&nbsp;</p>
+
+          <p>
+            I better understand how to identify faulty componenets, trace signals 
+            through the circuit, and decipher the purpose of certain componenets. I 
+            also improved upon my documentation skills by replicating my findings 
+            using a bill of materials, circuit schematic, and flowchart.
+          </p>
+          <p>&nbsp;</p>
+
+          <p>
+            I found that researching the device's retail information and history 
+            helped me analyze the device and draw meanignful conclusions. I also 
+            understand a bit more about the device's market appeal and design.
+          </p>
+          <p>&nbsp;</p>
+
+          <p>
+            Finally, I learned how to communicate complex technical information 
+            through a website. This helped improved my ability to translate technical 
+            concepts into a format that many people from many backgrounds can 
+            understand.
+          </p>
+          <p>&nbsp;</p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#Introduction">Introduction</a></li>
+          <li><a href="#retail">Retail Information</a></li>
+          <li><a href="#disassembly">Disassembly</a></li>
+          <li><a href="#operation">Operation</a></li>
+          <li><a href="#analysis">Analysis</a></li>
+          <li><a href="#reassembly">Reassembly</a></li>
+          <li><a href="#lessons">Lessons Learned</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <p>Copyright &#169; 2024 Avery Triplett. All Rights Reserved.</p>
+  </footer>
+
+  <!-- ADD THE LINK TO YOUR SCRIPT HERE -->
+  <script src="script.js"></script>
+</body>
+
+</html>
+
